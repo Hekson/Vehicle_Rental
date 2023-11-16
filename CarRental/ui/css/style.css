@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/jost');
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(/images/image.png);
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    font-family: 'Jost*', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.d-none {
+  display: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 30px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  width: 98%;
+  background: linear-gradient(163deg, rgba(0,81,233,1) 19%, rgba(0,171,233,0.6012780112044818) 100%);
+  border-radius: 0.53rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.header h1 {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+.header .coinarea {
+  background-color: rgba(0, 0, 0, 0.747);
+  padding: 0.50rem 0.80rem;
+  border-radius: 999px;
+  align-items: center;
+  display: flex;
+}
+
+.coinarea span {
+  font-size: 0.91rem;
+  margin-left: 0.40rem;
+}
+
+.coinarea svg {
+  fill: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.carbox {
+  background: linear-gradient(163deg, rgba(0,81,233,1) 19%, rgba(0,171,233,0.6012780112044818) 100%);  
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.carbox:hover {
+  background-color: rgba(0, 99, 180, 0.445);
+  border: 1px solid rgba(0, 0, 0, 0.726);
+  transform: scale(1.2);
+}
+
+.cartitle {
+  padding: 0;
+  margin: 0;
+}
+
+.cartitle h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.cartitle p {
+  padding: 0;
+  margin: 0;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.carimg img {
+  width: 100%;
+}
+
+.carimg {
+  margin: 30px 0;
+  width: 260px;
+}
+
+.pricearea p {
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pricearea span {
+  color: rgb(6, 207, 6);
+}
+
+.description p {
+  padding: 0;
+  margin: 0;
+  opacity: 0.6;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+::selection {
+  background: transparent;
+}
