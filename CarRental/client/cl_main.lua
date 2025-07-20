@@ -70,7 +70,7 @@ end)
 function CreateVeh(VehName, SpawnCoords, HeadingPoint)
     if ESX.GetPlayerData().money >= Config.Amound then
         if RentalVeh == nil then
-            ESX.Game.SpawnVehiclex(GetHashKey(VehName), SpawnCoords, HeadingPoint, function(vehicle)
+            ESX.Game.SpawnVehicle(GetHashKey(VehName), SpawnCoords, HeadingPoint, function(vehicle)
                 RentalVeh = vehicle
                 SetVehicleNumberPlateText(RentalVeh, "Rental")
                 TaskWarpPedIntoVehicle(PlayerPedId(), RentalVeh, -1)
